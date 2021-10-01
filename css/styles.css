@@ -7,7 +7,7 @@
   --logo-color: #2196f3;
   --background-color: #2f303a;
   --header-solid-color: #ececec;
-  --background-team-color: #F5F4FA;
+  --background-team-color: #f5f4fa;
 }
 
 body,
@@ -49,7 +49,7 @@ footer {
 }
 
 .header {
-  border-bottom: 1px solid: var(--header-solid-color);
+  border-bottom: 1px solid var(--header-solid-color);
 }
 
 .header-container {
@@ -76,9 +76,9 @@ footer {
 }
 
 .header-item .link {
-padding-top: 32px;
-padding-bottom: 32px;
-display: block;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  display: block;
 }
 
 .mail-color {
@@ -91,12 +91,11 @@ display: block;
   line-height: 1.19;
   letter-spacing: 0.03em;
   color: var(--secondary-text-color);
-  margin-top: 10px;
   text-align: center;
 }
 
 .team {
-background:var(--background-team-color);
+  background: var(--background-team-color);
 }
 
 .team-list-item {
@@ -107,7 +106,7 @@ background:var(--background-team-color);
   border-radius: 0px 0px 4px 4px;
   flex-basis: calc(100% / 4 - 30px);
   margin-top: 30px;
-  margin-left: 30px;;
+  margin-left: 30px;
 }
 
 .team-content {
@@ -185,10 +184,10 @@ background:var(--background-team-color);
 }
 
 .list-title {
-   display: flex;
-   flex-wrap: wrap;
-   margin-left: -30px;
-   margin-top: -30px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -30px;
+  margin-top: -30px;
 }
 
 .list-works {
@@ -220,7 +219,7 @@ background:var(--background-team-color);
 
 .portfolio-content {
   padding: 20px 22px;
-  border: 1px solid #EEEEEE;
+  border: 1px solid #eeeeee;
 }
 
 .list-works:hover,
@@ -228,7 +227,8 @@ background:var(--background-team-color);
 .current-button {
   color: var(--primary-white-color);
   background-color: var(--accent-color);
-  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
+    0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
 .work-list {
@@ -246,21 +246,22 @@ background:var(--background-team-color);
   width: 1200px;
   display: flex;
   flex-wrap: wrap;
-  flex-basis: calc(100% / 3 - 30px); 
+  flex-basis: calc(100% / 3 - 30px);
   margin-left: -30px;
   margin-bottom: -30px;
 }
 
 .portfolio-projects-item {
   margin-left: 30px;
-  margin-top: 30px;
 }
 
 .portfolio-projects-title {
   font-weight: bold;
   font-size: 18px;
+  color: var(--primary-text-color);
   line-height: 2;
   letter-spacing: 0.06em;
+  margin-bottom: 30px;
 }
 
 .images-card {
@@ -378,16 +379,6 @@ background:var(--background-team-color);
   margin-top: 30px;
 }
 
-.title-port {
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 2;
-  letter-spacing: 0.06em;
-  color: var(--primary-text-color);
-}
-
 .type-works {
   font-weight: bold;
   line-height: 1.14;
@@ -403,6 +394,7 @@ background:var(--background-team-color);
   letter-spacing: 0.03em;
   color: var(--primary-text-color);
   text-align: center;
+  margin-bottom: 10px;
 }
 
 .clients {
@@ -438,6 +430,7 @@ background:var(--background-team-color);
   text-decoration: none;
   color: var(--primary-white-color);
   background-color: var(--background-color);
+  margin-bottom: 20px;
 }
 
 .logo-2 :hover,
@@ -447,10 +440,6 @@ background:var(--background-team-color);
 
 .fotter {
   padding: 60px 0;
-}
-
-.footer-list {
-  margin-top: 20px;
 }
 
 .footer-flex {
@@ -469,4 +458,3 @@ background:var(--background-team-color);
 .footer-logo {
   margin-bottom: 20px;
 }
-
